@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-2.5.xsd
+       http://www.springframework.org/schema/task
+       http://www.springframework.org/schema/task/spring-task.xsd">
+
+	<context:component-scan
+		base-package="com.jiaduo.async.AsyncProgram" />
+
+	<!--0.创建自己的业务线程池处理器 -->
+	<!-- <task:executor id="myexecutor" pool-size="5" /> -->
+	<!--1.开启Async注解的解析 -->
+	<!-- <task:annotation-driven executor="myexecutor"/> -->
+	<!--2.注入业务Bean -->
+	<bean id="asyncCommentExample"
+		class="com.jiaduo.async.AsyncProgram.AsyncAnnotationExample">
+	</bean>
+</beans>

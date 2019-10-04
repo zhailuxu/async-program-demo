@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-2.5.xsd
+       http://www.springframework.org/schema/task
+       http://www.springframework.org/schema/task/spring-task.xsd">
+
+	<!--1.配置异步任务处理器 -->
+	<!-- <task:executor id="myexecutor" pool-size="5" /> -->
+	<!--2.开启Async注解的解析，并使用上面创建的线程池处理器 -->
+	<task:annotation-driven
+		exception-handler="myAsyncUncaughtExceptionHandler" />
+
+	<bean id="myAsyncUncaughtExceptionHandler"
+		class="org.ChapterIV.TaskExecutor.MyAsyncUncaughtExceptionHandler"></bean>
+	<bean id="asyncCommentExample"
+		class="org.ChapterIV.TaskExecutor.AsyncExecutorExample">
+	</bean>
+</beans> 
