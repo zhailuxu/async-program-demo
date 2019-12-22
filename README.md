@@ -48,5 +48,4 @@
 大家可以到https://github.com/zhailuxu/async-program-demo 下载本书的demo资源，另外由于笔者水平有限，如果您在阅读本书时候发现错误，可以关注微信公众号：技术原始积累 ，留言反馈。
 
 ## 0.6 购买
-- 京东
-- 淘宝
+ - [京东](https://item.jd.com/12778422.html)
