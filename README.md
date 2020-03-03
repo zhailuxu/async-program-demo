@@ -49,3 +49,9 @@
 
 ## 0.6 购买
  - [京东](https://item.jd.com/12778422.html)
+ 
+## 0.7 更多新书，关注下面微信公众号
+ 
+ 
+![image]( https://github.com/zhailuxu/async-program-demo/blob/master/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg)
+
