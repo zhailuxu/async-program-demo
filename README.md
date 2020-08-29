@@ -1,6 +1,6 @@
 
 # 《Java异步编程实战》
-作者：翟陆续（加多），某大型互联网公司资深开发工程师，并发编程网编辑；热衷并发编程，微服务架构设计，中间件基础设施，著作《Java并发编程之美》,微信公众号：技术原始积累。
+作者：翟陆续（加多），某大型互联网公司资深开发工程师，并发编程网编辑；热衷并发编程，微服务架构设计，中间件基础设施，著作《Java并发编程之美》,、《Java异步编程实战》、<<深度剖析ApacheDuuo核心技术内幕》微信公众号：技术原始积累。
 
 ## 0.1为何写作本书
 
@@ -53,7 +53,7 @@
 ## 0.7 更多新书，关注下面微信公众号
  
  
-![image]( https://github.com/zhailuxu/async-program-demo/blob/master/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg)
+![image]( https://zhailuxu.github.io/assets/images/jiaduowechat.png)
 
 
 ## 0.7 我的网站
